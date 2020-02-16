@@ -1,0 +1,17 @@
+appdirs==1.4.3
+attrs==19.3.0
+beautifulsoup4==4.8.2
+black==19.10b0
+certifi==2019.11.28
+chardet==3.0.4
+Click==7.0
+idna==2.8
+lxml==4.5.0
+pathspec==0.7.0
+PyPDF2==1.26.0
+regex==2020.1.8
+requests==2.22.0
+soupsieve==1.9.5
+toml==0.10.0
+typed-ast==1.4.1
+urllib3==1.25.8
