@@ -66,12 +66,14 @@ def download_pdf(args: Tuple[str, str]) -> str:
         if error.response.status_code != 404:
             raise error
 
+
 def get_files_in_dir(directory: str, extension: str) -> List[str]:
     abspaths = []
     for file in os.listdir(directory):
         if file.endswith(extension):
             abspaths.append(os.path.join(os.path.abspath(directory), file))
     return abspaths
+
 
 def main():
     yrs = years()
@@ -110,10 +112,7 @@ def main():
                     ]
                 )
                 for dist in distribution_fields:
-                    (
-                        grades,
-                        (dept, course_num, section_num, instructor_name),
-                    ) = dist
+                    (grades, (dept, course_num, section_num, instructor_name),) = dist
                     writer.writerow(
                         [*grades, dept, course_num, section_num, instructor_name]
                     )
