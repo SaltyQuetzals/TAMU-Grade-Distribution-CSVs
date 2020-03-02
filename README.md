@@ -1,7 +1,7 @@
 # pdf-parser
 Machine-readable grade distributions are **Good Bull**.
 If you wind up using this data or code in some form, credit would be appreciated. 
-Just add your name to [`using.md`](using).
+Just add your name to [`using.md`](using.md).
 
 # What is it?
 This is a simple script designed to:
