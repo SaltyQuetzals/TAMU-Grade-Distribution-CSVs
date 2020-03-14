@@ -30,7 +30,7 @@ I don't want to get either of those things.
 Pull requests of all kinds are welcome!
 Some issues I'm trying to tackle:
 
-- [ ] Automating releases to be every 3 months or so using [GitHub Actions](https://github.com/features/actions).
+- [X] Automating releases to be every 3 months or so using [GitHub Actions](https://github.com/features/actions).
 - [ ] Refactoring/cleaning up code
 - [ ] Including data from before 2014 ([Marcus Salinas has 2012-2014](https://drive.google.com/drive/folders/0B6WlnfAGiKk9ZlEwcElEZW9rUE0), but I can't find anything from before 2012).
 - [ ] Refining data collection
