@@ -8,7 +8,7 @@ Click==7.0
 idna==2.8
 lxml==4.5.0
 pathspec==0.7.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 regex==2020.1.8
 requests==2.22.0
 soupsieve==1.9.5
