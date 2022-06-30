@@ -160,7 +160,7 @@ def concat_csvs():
         else:
             dataframes[term_code] = pd.concat([dataframes[term_code], df])
     for key, val in dataframes.items():
-        val.to_csv(os.path.join("documents", "csvs", f"{key}.csv"))
+        val.to_csv(os.path.join("documents", "csvs", f"{key}.csv"), index=False)
 
 
 def main():
