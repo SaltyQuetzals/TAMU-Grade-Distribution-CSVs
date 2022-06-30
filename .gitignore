@@ -4,6 +4,7 @@
 # CSV Files
 documents/**/*.zip
 documents/**/*.csv
+documents/**/*.pdf
 
 
 # Byte-compiled / optimized / DLL files
