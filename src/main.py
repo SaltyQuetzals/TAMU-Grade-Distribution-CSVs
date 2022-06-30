@@ -9,7 +9,7 @@ from requests import Response
 
 import pdf_parser
 
-ROOT_URL = "https://web-as.tamu.edu/gradereport/"
+ROOT_URL = "https://web-as.tamu.edu/GradeReports/"
 PDF_URL = "https://web-as.tamu.edu/gradereport/PDFReports/{}/grd{}{}.pdf"
 PDF_DOWNLOAD_DIR = os.path.abspath("documents/pdfs")
 

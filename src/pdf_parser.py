@@ -68,7 +68,7 @@ def is_college_total_row(string: str) -> bool:
     return string == "COLLEGE TOTAL:"
 
 
-def sanitize_page(page_obj: PyPDF2.pdf.PageObject) -> List[str]:
+def sanitize_page(page_obj: PyPDF2.PageObject) -> List[str]:
     """Splits a PageObject's content on any number of newlines, and returns
     the content as a list of strings.
 
@@ -83,7 +83,7 @@ def sanitize_page(page_obj: PyPDF2.pdf.PageObject) -> List[str]:
 
 
 def parse_page(
-    page_obj: PyPDF2.pdf.PageObject,
+    page_obj: PyPDF2.PageObject,
 ) -> Tuple[List[str], Tuple[str, str, str, str]]:
     """Parses a page from a PDF, extracting a list of grade data for each section.
 
